@@ -1,9 +1,9 @@
-import * as types from '../Actions/action-types'
+import * as types from '../Actions/ActionTypes'
 
 const initialState = {
   todos: ['Click to remove', 'Learn React Native', 'Write Code', 'Ship App'],
 }
-const taskReducer = (state = initialState, action) => {
+const TaskReducer = (state = initialState, action) => {
   const { todos } = state
   const { type, payload } = action
   switch (type) {
@@ -23,4 +23,4 @@ const taskReducer = (state = initialState, action) => {
   return state
 }
 
-export default taskReducer
+export default TaskReducer

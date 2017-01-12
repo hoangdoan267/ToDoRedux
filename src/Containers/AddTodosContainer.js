@@ -15,7 +15,7 @@ import Icon from 'react-native-vector-icons/EvilIcons';
 import { Actions } from 'react-native-router-flux'
 import Input from '../Components/Input'
 import { connect } from 'react-redux'
-import { taskActionCreators } from "../Actions/task-actions"
+import { taskActionCreators } from "../Actions/TaskActions"
 
 class AddTodosContainer extends Component {
 

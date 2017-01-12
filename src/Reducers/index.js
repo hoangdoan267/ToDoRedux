@@ -1,9 +1,9 @@
 import { combineReducers } from "redux"
 
-import taskReducer from "./task-reducer"
+import TaskReducer from "./TaskReducer"
 
 let reducers = combineReducers({
-  taskState: taskReducer
+  taskState: TaskReducer
 })
 
 export default reducers

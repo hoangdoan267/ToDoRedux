@@ -1,4 +1,4 @@
-import * as types from './action-types'
+import * as types from './ActionTypes'
 
 export const taskActionCreators = {
   add: (item) => {

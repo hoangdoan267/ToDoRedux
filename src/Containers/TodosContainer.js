@@ -5,7 +5,7 @@ import { connect } from 'react-redux'
 import Title from '../Components/Title'
 import List from '../Components/List'
 import Input from '../Components/Input'
-import { taskActionCreators } from "../Actions/task-actions"
+import { taskActionCreators } from "../Actions/TaskActions"
 
 class TodosContainer extends Component {
 
